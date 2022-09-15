@@ -5,15 +5,15 @@
     "passes": 0,
     "pending": 0,
     "failures": 3,
-    "start": "2021-11-10T00:33:40.737Z",
-    "end": "2021-11-10T00:33:41.158Z",
-    "duration": 421
+    "start": "2022-09-15T02:52:57.465Z",
+    "end": "2022-09-15T02:52:57.614Z",
+    "duration": 149
   },
   "tests": [
     {
       "title": "precioBitcoin incrementa 1",
       "fullTitle": "index.js precioBitcoin incrementa 1",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected 67344 to equal 67345",
@@ -21,7 +21,7 @@
         "actual": "67344",
         "expected": "67345",
         "operator": "strictEqual",
-        "stack": "AssertionError: expected 67344 to equal 67345\n    at Context.<anonymous> (test/indexTest.js:3:30)\n    at processImmediate (node:internal/timers:464:21)"
+        "stack": "AssertionError: expected 67344 to equal 67345\n    at Context.<anonymous> (test/indexTest.js:3:30)\n    at process.processImmediate (node:internal/timers:471:21)"
       }
     },
     {
@@ -35,7 +35,7 @@
         "actual": "4752",
         "expected": "4751",
         "operator": "strictEqual",
-        "stack": "AssertionError: expected 4752 to equal 4751\n    at Context.<anonymous> (test/indexTest.js:7:31)\n    at processImmediate (node:internal/timers:464:21)"
+        "stack": "AssertionError: expected 4752 to equal 4751\n    at Context.<anonymous> (test/indexTest.js:7:31)\n    at process.processImmediate (node:internal/timers:471:21)"
       }
     },
     {
@@ -49,7 +49,7 @@
         "actual": "0.2749",
         "expected": "0.7748999999999999",
         "operator": "strictEqual",
-        "stack": "AssertionError: expected 0.2749 to equal 0.7748999999999999\n    at Context.<anonymous> (test/indexTest.js:11:31)\n    at processImmediate (node:internal/timers:464:21)"
+        "stack": "AssertionError: expected 0.2749 to equal 0.7748999999999999\n    at Context.<anonymous> (test/indexTest.js:11:31)\n    at process.processImmediate (node:internal/timers:471:21)"
       }
     }
   ],
@@ -58,7 +58,7 @@
     {
       "title": "precioBitcoin incrementa 1",
       "fullTitle": "index.js precioBitcoin incrementa 1",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "message": "expected 67344 to equal 67345",
@@ -66,7 +66,7 @@
         "actual": "67344",
         "expected": "67345",
         "operator": "strictEqual",
-        "stack": "AssertionError: expected 67344 to equal 67345\n    at Context.<anonymous> (test/indexTest.js:3:30)\n    at processImmediate (node:internal/timers:464:21)"
+        "stack": "AssertionError: expected 67344 to equal 67345\n    at Context.<anonymous> (test/indexTest.js:3:30)\n    at process.processImmediate (node:internal/timers:471:21)"
       }
     },
     {
@@ -80,7 +80,7 @@
         "actual": "4752",
         "expected": "4751",
         "operator": "strictEqual",
-        "stack": "AssertionError: expected 4752 to equal 4751\n    at Context.<anonymous> (test/indexTest.js:7:31)\n    at processImmediate (node:internal/timers:464:21)"
+        "stack": "AssertionError: expected 4752 to equal 4751\n    at Context.<anonymous> (test/indexTest.js:7:31)\n    at process.processImmediate (node:internal/timers:471:21)"
       }
     },
     {
@@ -94,7 +94,7 @@
         "actual": "0.2749",
         "expected": "0.7748999999999999",
         "operator": "strictEqual",
-        "stack": "AssertionError: expected 0.2749 to equal 0.7748999999999999\n    at Context.<anonymous> (test/indexTest.js:11:31)\n    at processImmediate (node:internal/timers:464:21)"
+        "stack": "AssertionError: expected 0.2749 to equal 0.7748999999999999\n    at Context.<anonymous> (test/indexTest.js:11:31)\n    at process.processImmediate (node:internal/timers:471:21)"
       }
     }
   ],
